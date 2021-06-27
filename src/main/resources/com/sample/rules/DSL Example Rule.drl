@@ -1,0 +1,12 @@
+package com.sample.rules
+import com.sample.model.Car;
+
+import java.lang.Number;
+
+rule "Update Example with DSL"
+	dialect "mvel"
+	when
+		$c : Car( carPrice == 5000 )
+	then
+		$c.setCarPrice( 4500); update ($c);
+end

@@ -1,0 +1,21 @@
+package com.sample.rules
+
+rule "Modify Existing Object In Working Memory"
+
+when
+  $car:Car((carMake>2015)&&(carPrice==6000))
+then
+  modify($car){
+  setCarPrice(3000)};
+  System.out.println("Car modified in working memory");
+end
+
+
+rule "Check Working memory After Modify"
+
+when
+  $car:Car((carMake>2015)&&(carPrice==3000))
+then
+
+  System.out.println("Rule executed after modifying object in working memory");
+end

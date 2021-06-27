@@ -1,0 +1,25 @@
+/*package com.sample.rules
+
+rule "Insert  New Object If Object Does Not Exist"
+
+when
+  not Customer()
+then
+  insert(new Customer("John",25,1000,45678));
+  System.out.println("Customer inserted to working memory");
+end
+
+query "getObjectsOfCustomer"
+    $insertedCustomerObjectInDRLFile: Customer()
+end
+
+rule "Check Working memory After Insert"
+
+when
+  $customer:Customer()
+then
+
+  System.out.println("Rule executed after insert to working memory");
+end
+*/
+

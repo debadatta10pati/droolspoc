@@ -1,0 +1,15 @@
+/*package com.sample.rules
+ 
+rule "Date Effective Valid"
+date-effective "30-JUN-2021"
+    when
+ then
+  System.out.println("Rule won't be fired as current date is before effective date.");
+end
+
+rule "Date Effective InValid"
+date-effective "30-JUN-2020"
+    when
+ then
+ System.out.println("Rule Fired because effective date is after current date.");
+end */

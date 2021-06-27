@@ -1,0 +1,18 @@
+/*package com.sample.rules
+ 
+import com.sample.model.Customer;
+function boolean isPersonalLoan()
+{
+    return true;
+}
+
+rule "Personal Loan"
+
+when  customer : Customer()
+eval(isPersonalLoan())
+then
+System.out.println("You have taken a personal loan");
+
+end
+*/
+

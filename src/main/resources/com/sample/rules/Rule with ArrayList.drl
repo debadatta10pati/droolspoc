@@ -1,0 +1,38 @@
+/*package com.sample.rules
+ 
+import com.sample.model.Customer;
+
+ import java.util.ArrayList;  
+ import java.util.List;  
+ // This rule will iterate through the list  
+ // and print the String objects  
+ rule "Rule List Iteration"  
+ //salience 100  
+   when  
+     customer : Customer($cars : cars)  
+     value : String() from $cars  
+   then  
+     System.out.println("Car from list is - " +value);  
+ end  
+
+
+ // This rule simply checks if the list  
+ // contains any particular country  
+ rule "Rule List Contains check without iteration"  
+// salience 40  
+   when  
+     customer : Customer($cars : cars,   
+          $cars contains "Toyota")  
+   then  
+     System.out.println("List contains car Toyota");  
+ end  
+ 
+  rule "Rule Evaluate ArrayList Size"  
+// salience 40  
+   when  
+     customer : Customer($cars : cars)
+     eval($cars.size()>0)
+   then  
+     System.out.println("Car list size is more than 0");  
+ end  
+ */

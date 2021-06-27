@@ -1,0 +1,46 @@
+/*package com.sample.rules
+import com.sample.model.Car;
+
+rule "Check for contains"
+
+when
+  $car:Car(carName.contains("Cad"))
+then
+  System.out.println("Executed rule : "+drools.getRule().getName()+" Car name is Cadillac");
+end
+
+
+rule "Check for equals"
+
+when
+  $car:Car(carName.equals("Cadillac"))
+then
+  System.out.println("Executed rule : "+drools.getRule().getName()+" Car name is Cadillac");
+end
+
+rule "Check for equalsIgnoreCase"
+
+when
+  $car:Car(carName.equalsIgnoreCase("cadillac"))
+then
+  System.out.println("Executed rule : "+drools.getRule().getName()+" Car name is Cadillac");
+end
+
+rule "Check for =="
+
+when
+  $car:Car(carName == "Cadillac")
+then
+  System.out.println("Executed rule : "+drools.getRule().getName()+" Car name is Cadillac");
+end
+
+rule "Check for in operator"
+
+when
+  $car:Car(carName in ("Cadillac","Corolla","Dezire"))
+then
+  System.out.println("Executed rule : "+drools.getRule().getName());
+end
+*/
+
+

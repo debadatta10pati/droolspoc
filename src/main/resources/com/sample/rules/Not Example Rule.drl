@@ -1,0 +1,11 @@
+/*package com.sample.rules
+import com.sample.model.Car;
+
+rule "Check If Object Does Not Exist"
+
+when
+  not Car()
+then
+  System.out.println(drools.getRule().getName());
+end
+*/

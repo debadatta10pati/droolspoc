@@ -1,0 +1,12 @@
+package com.sample.rules
+ 
+import com.sample.model.Customer;
+
+rule "Exists example"
+
+ when
+ exists Customer(age>50)
+ then
+  System.out.println("The customer is older than 50. ");
+end
+
